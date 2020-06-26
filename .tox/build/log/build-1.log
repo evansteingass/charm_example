@@ -1,0 +1,37 @@
+action: build, msg: getenv
+cwd: /home/esteingass/charms/layers/layer-example
+cmd: /home/esteingass/charms/layers/layer-example/.tox/build/bin/python -m pip install -r/home/esteingass/charms/layers/layer-example/requirements/test-requirements.txt
+Collecting flake8
+  Using cached flake8-3.8.3-py2.py3-none-any.whl (72 kB)
+Collecting pytest
+  Using cached pytest-5.4.3-py3-none-any.whl (248 kB)
+Collecting pycodestyle
+  Using cached pycodestyle-2.6.0-py2.py3-none-any.whl (41 kB)
+Collecting tox
+  Using cached tox-3.16.0-py2.py3-none-any.whl (82 kB)
+Collecting pyflakes<2.3.0,>=2.2.0
+  Using cached pyflakes-2.2.0-py2.py3-none-any.whl (66 kB)
+Collecting mccabe<0.7.0,>=0.6.0
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Requirement already satisfied: packaging in ./.tox/build/lib/python3.8/site-packages (from pytest->-r /home/esteingass/charms/layers/layer-example/requirements/test-requirements.txt (line 2)) (20.3)
+Collecting pluggy<1.0,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting wcwidth
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting py>=1.5.0
+  Using cached py-1.9.0-py2.py3-none-any.whl (99 kB)
+Collecting more-itertools>=4.0.0
+  Using cached more_itertools-8.4.0-py3-none-any.whl (43 kB)
+Collecting attrs>=17.4.0
+  Using cached attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting filelock>=3.0.0
+  Using cached filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Requirement already satisfied: six>=1.14.0 in ./.tox/build/lib/python3.8/site-packages (from tox->-r /home/esteingass/charms/layers/layer-example/requirements/test-requirements.txt (line 4)) (1.14.0)
+Collecting toml>=0.9.4
+  Using cached toml-0.10.1-py2.py3-none-any.whl (19 kB)
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0
+  Using cached virtualenv-20.0.25-py2.py3-none-any.whl (4.7 MB)
+Requirement already satisfied: distlib<1,>=0.3.0 in ./.tox/build/lib/python3.8/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox->-r /home/esteingass/charms/layers/layer-example/requirements/test-requirements.txt (line 4)) (0.3.0)
+Requirement already satisfied: appdirs<2,>=1.4.3 in ./.tox/build/lib/python3.8/site-packages (from virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0->tox->-r /home/esteingass/charms/layers/layer-example/requirements/test-requirements.txt (line 4)) (1.4.3)
+Installing collected packages: pyflakes, pycodestyle, mccabe, flake8, pluggy, wcwidth, py, more-itertools, attrs, pytest, filelock, toml, virtualenv, tox
+Successfully installed attrs-19.3.0 filelock-3.0.12 flake8-3.8.3 mccabe-0.6.1 more-itertools-8.4.0 pluggy-0.13.1 py-1.9.0 pycodestyle-2.6.0 pyflakes-2.2.0 pytest-5.4.3 toml-0.10.1 tox-3.16.0 virtualenv-20.0.25 wcwidth-0.2.5

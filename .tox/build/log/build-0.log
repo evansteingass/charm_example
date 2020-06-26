@@ -1,0 +1,7 @@
+action: build, msg: getenv
+cwd: /home/esteingass/charms/layers/layer-example/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 build
+created virtual environment CPython3.8.2.final.0-64 in 336ms
+  creator CPython3Posix(dest=/home/esteingass/charms/layers/layer-example/.tox/build, clear=False, global=False)
+  seeder FromAppData(download=False, idna=latest, lockfile=latest, pyparsing=latest, six=latest, urllib3=latest, contextlib2=latest, appdirs=latest, CacheControl=latest, pkg_resources=latest, chardet=latest, colorama=latest, requests=latest, distro=latest, ipaddr=latest, pep517=latest, webencodings=latest, pip=latest, retrying=latest, msgpack=latest, progress=latest, packaging=latest, distlib=latest, certifi=latest, pytoml=latest, html5lib=latest, wheel=latest, setuptools=latest, via=copy, app_data_dir=/home/esteingass/.local/share/virtualenv/seed-app-data/v1.0.1.debian)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator

@@ -1,0 +1,12 @@
+"name": "example"
+"summary": "A very basic example charm"
+"maintainer": "Evan Steingass <Evan@esserver>"
+"description": |
+  This is a charm I built as part of my beginning charming tutorial.
+"tags":
+- "application_development"
+- "analytics"
+"series":
+- "xenial"
+- "bionic"
+- "trusty"

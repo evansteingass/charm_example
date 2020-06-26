@@ -1,0 +1,311 @@
+{
+  "layers": [
+    {
+      "rev": "fcdcea4e5de3e1556c24e6704607862d0ba00a56",
+      "url": "layer:options"
+    },
+    {
+      "rev": "4608a7196f7e1140c1382921bc9d1c56df165aee",
+      "url": "layer:basic"
+    },
+    {
+      "rev": "a7d7b6423db37a47611310039e6ed1929c0a2eab",
+      "url": "layer:status"
+    },
+    {
+      "rev": "3caa4a8951b9efbba2174e0deca36ae9edb4a75e",
+      "url": "layer:apt"
+    },
+    {
+      "rev": null,
+      "url": "example"
+    }
+  ],
+  "signatures": {
+    ".build.manifest": [
+      "build",
+      "dynamic",
+      "unchecked"
+    ],
+    ".gitignore": [
+      "layer:apt",
+      "static",
+      "54c2eac10d7d0187b02c271ac7a3767bb3d365d562cfb8c1548efb4e84f7b2d5"
+    ],
+    ".travis/profile-update.yaml": [
+      "layer:basic",
+      "static",
+      "731e20aa59bf61c024d317ad630e478301a9386ccc0afe56e6c1c09db07ac83b"
+    ],
+    "LICENSE": [
+      "layer:status",
+      "static",
+      "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    ],
+    "Makefile": [
+      "layer:basic",
+      "static",
+      "b7ab3a34e5faf79b96a8632039a0ad0aa87f2a9b5f0ba604e007cafb22190301"
+    ],
+    "README.ex": [
+      "example",
+      "static",
+      "eb25333fb6ee2abc2d5dde329dfd6b4b2a6dd5516094e75354fb6cd84010afad"
+    ],
+    "README.md": [
+      "layer:apt",
+      "static",
+      "1833a78d26d3153f7a54cfec3a3987d2514ad7dab33fadd17ffcc9b99b6dc393"
+    ],
+    "bin/charm-env": [
+      "layer:basic",
+      "static",
+      "458c53532c19ee357cbf4209ccc7d811810718ba0ea3b0588b3d3ef040a44b8e"
+    ],
+    "bin/layer_option": [
+      "layer:options",
+      "static",
+      "e959bf29da4c5edff28b2602c24113c4df9e25cdc9f2aa3b5d46c8577b2a40cc"
+    ],
+    "config.yaml": [
+      "layer:apt",
+      "dynamic",
+      "d041d0dd5f6d62bc72700e9b0251151ffb4303dd49f7400133bdc44fda47f97d"
+    ],
+    "copyright": [
+      "layer:apt",
+      "static",
+      "5123b2d0220fefb4424a463216fb41a6dd7cfad49c9799ba7037f1e74a2fd6bc"
+    ],
+    "copyright.layer-basic": [
+      "layer:basic",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "copyright.layer-options": [
+      "layer:options",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "copyright.layer-status": [
+      "layer:status",
+      "static",
+      "7c0e36e618a8544faaaa3f8e0533c2f1f4a18bcacbdd8b99b537742e6b587d58"
+    ],
+    "docs/status.md": [
+      "layer:status",
+      "static",
+      "975dec9f8c938196e102e954a80226bda293407c4e5ae857c118bf692154702a"
+    ],
+    "hooks/config-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/hook.template": [
+      "layer:basic",
+      "static",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/install": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/leader-elected": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/leader-settings-changed": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/post-series-upgrade": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/pre-series-upgrade": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/start": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/stop": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/update-status": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "hooks/upgrade-charm": [
+      "layer:basic",
+      "dynamic",
+      "2b693cb2a11594a80cc91235c2dc219a0a6303ae62bee8aa87eb35781f7158f7"
+    ],
+    "layer.yaml": [
+      "example",
+      "dynamic",
+      "740b52530f25472a1260f05a4920954f4ace73a33583c0cf80fa28a244b83729"
+    ],
+    "lib/charms/apt.py": [
+      "layer:apt",
+      "static",
+      "379c0f6bebbf589df6738d7c46bbd4ccb397927051a4ebbe3c946a6330099199"
+    ],
+    "lib/charms/layer/__init__.py": [
+      "layer:basic",
+      "static",
+      "dfe0d26c6bf409767de6e2546bc648f150e1b396243619bad3aa0553ab7e0e6f"
+    ],
+    "lib/charms/layer/basic.py": [
+      "layer:basic",
+      "static",
+      "42ff8504f930c5f6059c288e6a1e352731f0b8ffb3f6e92f3b1860b7ce8390d3"
+    ],
+    "lib/charms/layer/execd.py": [
+      "layer:basic",
+      "static",
+      "fda8bd491032db1db8ddaf4e99e7cc878c6fb5432efe1f91cadb5b34765d076d"
+    ],
+    "lib/charms/layer/options.py": [
+      "layer:options",
+      "static",
+      "8ae7a07d22542fc964f2d2bee8219d1c78a68dace70a1b38d36d4aea47b1c3b2"
+    ],
+    "lib/charms/layer/status.py": [
+      "layer:status",
+      "static",
+      "d560a5e07b2e5f2b0f25f30e1f0278b06f3f90c01e4dbad5c83d71efc79018c6"
+    ],
+    "make_docs": [
+      "layer:status",
+      "static",
+      "c990f55c8e879793a62ed8464ee3d7e0d7d2225fdecaf17af24b0df0e2daa8c1"
+    ],
+    "metadata.yaml": [
+      "example",
+      "dynamic",
+      "5d27260edbe3d6c1bf7f38570dbfc905ba2351e73c8e49694a51bf57d6baabc1"
+    ],
+    "pydocmd.yml": [
+      "layer:status",
+      "static",
+      "11d9293901f32f75f4256ae4ac2073b92ce1d7ef7b6c892ba9fbb98690a0b330"
+    ],
+    "reactive/__init__.py": [
+      "layer:basic",
+      "static",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "reactive/apt.py": [
+      "layer:apt",
+      "static",
+      "65153d74a88993dd2d4632c25196d9a6015a92a0b225debf4f942a62d111f47b"
+    ],
+    "reactive/layer_example.py": [
+      "example",
+      "static",
+      "e81080586af115162d0448c582640c06639774dfbd3e126b2cd58d437dac45cc"
+    ],
+    "reactive/status.py": [
+      "layer:status",
+      "static",
+      "30207fc206f24e91def5252f1c7f7c8e23c0aed0e93076babf5e03c05296d207"
+    ],
+    "requirements.txt": [
+      "layer:basic",
+      "static",
+      "a00f75d80849e5b4fc5ad2e7536f947c25b1a4044b341caa8ee87a92d3a4c804"
+    ],
+    "tox.ini": [
+      "layer:status",
+      "static",
+      "2669a78e8e51c1606874e1cc97ca99e660ff547a79592572a38a268d99b25b67"
+    ],
+    "wheelhouse.txt": [
+      "layer:basic",
+      "dynamic",
+      "7cf3f983dc8f85b0c0ca6d69accdb4f4af842a911625286df09005ed1897d797"
+    ],
+    "wheelhouse/Jinja2-2.10.1.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "065c4f02ebe7f7cf559e49ee5a95fb800a9e4528727aec6f24402a5374c65013"
+    ],
+    "wheelhouse/MarkupSafe-1.1.1.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b"
+    ],
+    "wheelhouse/PyYAML-5.2.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "c0ee8eca2c582d29c3c2ec6e2c4f703d1b7f1fb10bc72317355a746057e7346c"
+    ],
+    "wheelhouse/Tempita-0.5.2.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c"
+    ],
+    "wheelhouse/charmhelpers-0.20.15.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "395b8b765762561b6d8ee1052465acc1d05ba92e737c6573658714e9df190191"
+    ],
+    "wheelhouse/charms.reactive-1.3.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "82d2c614c82d64bf56e913990f22663e5de64b99db15838abfd9a064f1cc2f51"
+    ],
+    "wheelhouse/netaddr-0.7.19.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "38aeec7cdd035081d3a4c306394b19d677623bf76fa0913f6695127c7753aefd"
+    ],
+    "wheelhouse/pbr-5.4.5.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "07f558fece33b05caf857474a366dfcc00562bca13dd8b47b2b3e22d9f9bf55c"
+    ],
+    "wheelhouse/pip-18.1.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "c0a292bd977ef590379a3f05d7b7f65135487b67470f6281289a94e015650ea1"
+    ],
+    "wheelhouse/pyaml-20.4.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "29a5c2a68660a799103d6949167bd6c7953d031449d08802386372de1db6ad71"
+    ],
+    "wheelhouse/setuptools-41.6.0.zip": [
+      "layer:basic",
+      "dynamic",
+      "6afa61b391dcd16cb8890ec9f66cc4015a8a31a6e1c2b4e0c464514be1a3d722"
+    ],
+    "wheelhouse/setuptools_scm-1.17.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "70a4cf5584e966ae92f54a764e6437af992ba42ac4bca7eb37cc5d02b98ec40a"
+    ],
+    "wheelhouse/six-1.15.0.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"
+    ],
+    "wheelhouse/wheel-0.33.6.tar.gz": [
+      "layer:basic",
+      "dynamic",
+      "10c9da68765315ed98850f8e048347c3eb06dd81822dc2ab1d4fde9dc9702646"
+    ]
+  }
+}
